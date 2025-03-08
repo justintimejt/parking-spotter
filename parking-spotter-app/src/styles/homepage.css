@@ -1,0 +1,7 @@
+.above-the-fold-container {
+  width: 100%;
+  height: 75%;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+}

@@ -1,13 +1,12 @@
 import './App.css'
+import { Homepage } from './pages/homepage'
 
 function App() {
   
 
   return (
     <>
-      <div style={{width: "100%", height: "100%" }}>
-        
-      </div>
+      <Homepage></Homepage>
     </>
   )
 }
