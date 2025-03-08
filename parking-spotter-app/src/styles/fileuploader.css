@@ -1,0 +1,12 @@
+.drag-drop-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.browse-files-link {
+    cursor: pointer;
+    color: #007bff;
+    font-size: 16px;
+    text-decoration: none;
+}
