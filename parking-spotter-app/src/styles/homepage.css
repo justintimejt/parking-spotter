@@ -59,3 +59,9 @@
   border-color: rgb(186, 186, 186);
   background-color: transparent;
 }
+
+.above-the-fold-learn-more-button:hover {
+  color: blue;
+  border-color: blue;
+  cursor: pointer;
+}
