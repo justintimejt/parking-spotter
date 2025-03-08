@@ -4,4 +4,58 @@
   background-color: grey;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.above-the-fold-main-info-container {
+  width: 40%;
+  height: 80%;
+}
+
+.above-the-fold-main-info-container-tag {
+  display: inline-block;
+  padding: 1% 2% 1% 2%;
+  border: solid;
+  border-width: 1px;
+  border-radius: 25px;
+}
+
+.above-the-fold-main-info-title {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.above-the-fold-main-info-subtitle {
+  font-size: 1.8em;
+  font-weight: lighter;
+  margin-top: 2%;
+}
+
+.above-the-fold-action-button-container {
+  width: 100%;
+  margin-top: 12%;
+  display: flex;
+  gap: 5%;
+}
+
+.above-the-fold-upload-image-button {
+  display: inline-block;
+  padding: 2% 3% 2% 3%;
+  background-color: #67FF90;
+  border-radius: 4px;
+  border: none;
+  outline: transparent;
+}
+
+.above-the-fold-upload-image-button:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+.above-the-fold-learn-more-button {
+  display: inline-block;
+  color: rgb(186, 186, 186);
+  border-style: none none solid none;
+  border-color: rgb(186, 186, 186);
+  background-color: transparent;
 }

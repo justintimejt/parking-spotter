@@ -1,0 +1,24 @@
+.parking-preview-container {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+.parking-preview {
+  margin-top: 4%;
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.parking-preview-label {
+  font-size: 0.8em;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 1%;
+}
