@@ -10,10 +10,11 @@
 
 .parking-preview {
   margin-top: 4%;
-  width: 80%;
-  height: 100%;
+  width: 640px;
+  height: 640px;
   border-radius: 10px;
   background-color: black;
+  overflow: hidden;
 }
 
 .parking-preview-label {

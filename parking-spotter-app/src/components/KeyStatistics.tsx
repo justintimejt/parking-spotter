@@ -7,7 +7,6 @@ interface StatisticProps {
 }
 
 const Statistic: React.FC<StatisticProps> = ({ statisticNum, statisticDescription }) => {
-  console.log(statisticNum, statisticDescription);
   return (
     <>
       <div className="key-statistic-container">
