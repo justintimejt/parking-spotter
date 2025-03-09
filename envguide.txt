@@ -1,0 +1,11 @@
+Active the virtual environment by:
+
+.\venv\Scripts\activate
+
+Deactivate by:
+
+deactivate
+
+Installed packages:
+
+pip install flask torch torchvision pillow
