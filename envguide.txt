@@ -8,4 +8,4 @@ deactivate
 
 Installed packages:
 
-pip install flask torch torchvision pillow
+pip install ultralytics flask
