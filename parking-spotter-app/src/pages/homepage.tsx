@@ -15,9 +15,6 @@ const Homepage = () => {
     //   { statisticNum: "1200", statisticDescription: "Currently Occupied" },
     // ]);
   }, [])
-
-  
-
   
 
   return (
@@ -33,7 +30,25 @@ const Homepage = () => {
           </div>
         </div>
         <div className="above-the-fold-drag-and-drop-files-container">
-          <FileUploader onImageUpload={(imageDataURL: string) => console.log(imageDataURL)}></FileUploader>
+          <FileUploader onImageUpload={(imageDataURL: string) => {
+            // console.log(imageDataURL);
+
+            (async () => {
+              console.log("Fetching")
+              const response = await fetch('http://127.0.0.1:5000/predict', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify({ image: imageDataURL }), // Send base64 string in request body
+              });
+
+              const data = await response.json(); // Parse JSON response from Flask
+              console.log(data); // Display the prediction result
+              previewImgRef.current?.updatePreviewImgURL(data.image);
+            })()
+            
+          }}></FileUploader>
         </div>
       </section>
 

@@ -11,6 +11,7 @@ const ParkingPreview = forwardRef<ParkingPreviewHandle>((_, ref) => {
   // Expose the function to the parent via ref
   useImperativeHandle(ref, () => ({
     updatePreviewImgURL: (newPreviewImgURL: string) => {
+      console.log("HELLO")
       setPreviewImgURL(newPreviewImgURL);
     },
   }));
