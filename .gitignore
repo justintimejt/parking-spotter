@@ -1,0 +1,30 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folder
+venv/
+
+# Flask specific
+*.db
+instance/
+*.log
+*.sqlite3
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# PyCharm or other IDEs (optional, if you are using them)
+.idea/
+
+# VSCode settings (optional, if you're using VSCode)
+.vscode/
+
+# Other
+.DS_Store  # macOS specific
+Thumbs.db  # Windows specific
+
+# Model weights or other large files (you may want to add your `.pt` file path here if it's large)
+*.pt
