@@ -27,4 +27,4 @@ instance/
 Thumbs.db  # Windows specific
 
 # Model weights or other large files (you may want to add your `.pt` file path here if it's large)
-*.pt
+# *.pt
