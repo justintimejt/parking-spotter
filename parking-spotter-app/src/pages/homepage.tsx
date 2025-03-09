@@ -38,7 +38,7 @@ const Homepage = () => {
       { statisticNum: data.empty_count.toString(), statisticDescription: "Empty Spots" },
       { statisticNum: data.occupied_count.toString(), statisticDescription: "Occupied Spots" },
       { statisticNum: Math.round((data.empty_count / data.occupied_count) * 100) + "%", statisticDescription: "Chance of getting a spot" },
-      { statisticNum: Math.round((data.empty_count / data.occupied_count) * 100) + "%", statisticDescription: "Chance of getting a spot" },
+      { statisticNum: Math.round((data.average_confidence) * 100) + "%", statisticDescription: "Confidence" },
     ]);
 
     setDetectionResults(data.detection_results);
