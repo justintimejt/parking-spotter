@@ -4,6 +4,7 @@ Parking Spotter is a web application designed to help users quickly identify ava
 
 Whether you're managing a parking lot or just looking for a spot, Parking Spotter makes it easy to assess parking availability with just a photo!
 
+![Screenshot](https://github.com/justintimejt/parking-spotter/blob/fde2a7cbe3421c4c9a5f14619a3f1dcaf973b461/parking-spotter-app/public/Screen%20Shot%202025-03-10%20at%2012.21.19%20PM.png?raw=true)
 ---
 
 ## Features ✨
