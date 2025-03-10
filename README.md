@@ -14,7 +14,8 @@ Whether you're managing a parking lot or just looking for a spot, Parking Spotte
 - **Confidence Scores**: Displays confidence scores for each parking spot prediction.
 - **Parking Availability Score**: Provides an overall score indicating the percentage of available spots.
 - **Analyzed Image**: Shows the uploaded image with visual overlays highlighting available and occupied spots.
-
+  
+![Screenshot](https://github.com/justintimejt/parking-spotter/blob/a0f3da2bd1747e76a8b6ea1b25b5a04bb4a8191d/parking-spotter-app/public/Screen%20Shot%202025-03-10%20at%2012.22.25%20PM.png?raw=true)
 ---
 
 ## Tech Stack 💻
